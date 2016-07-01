@@ -1,3 +1,4 @@
+//get请求
 require("http").get(process.argv[2], processResponse)
 
 function processResponse(res) {
